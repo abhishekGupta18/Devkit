@@ -1,0 +1,39 @@
+.navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 15px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.logo_container h3 {
+  color: var(--primary-color);
+  /* font-family: "Oswald", sans-serif;
+   */
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+}
+.right_navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.right_navbar label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  color: #ffff;
+}
